@@ -1,0 +1,30 @@
+database design
+- make it native
+- use migration tool like licoBaze
+- make validation also in database
+- make indexes to accelerate searching
+- make unique constraints (category Name)
+
+
+- handle relationship between product and category (lazy loading , activation)
+
+validation
+- handle messages when validation fails  DONE ------------------------------------------
+
+
+exception handling
+- make unified response for requests either error happened or not  DONE ------------------------------------------
+
+
+how update should happen
+
+
+
+
+Required functions:
+Category APIs:
+add, update, activate, deactivate, list all  DONE ------------------------------------------
+Product APIs:
+add, update , activate, deactivate, list all, list products by category and/or price range
+
+
